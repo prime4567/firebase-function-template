@@ -9,5 +9,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm ci
-      - run: npm run test
+      - name: Installing dependencies
+        working-directory: ./functions
+        run: npm ci
+      - name: Running unit test
+        working-directory: ./functions
+        run: npm run test
