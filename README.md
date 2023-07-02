@@ -1,3 +1,5 @@
+![https://github.com/prime4567/firebase-function-template/actions/workflows/run-unit-test.yml/badge.svg]
+
 # FIREBASE Function Template
 This is the template to use firebase function.
 
