@@ -10,4 +10,9 @@ firebase login
 firebase init functions
 ```
 
-Test function is in ```/getHelloWorld```
+Demo function is in ```/getHelloWorld```
+
+## Testing detail
+Testing is performed using [Mocha](https://mochajs.org/).
+
+To run test, type ```npm run test```

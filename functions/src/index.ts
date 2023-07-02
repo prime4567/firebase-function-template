@@ -20,5 +20,5 @@ import * as logger from "firebase-functions/logger";
 
 export const getHelloWorld = onRequest((request, response) => {
     logger.info("API Endpoint getHelloWorld called");
-    response.send("Hello there from getHelloWorld")
+    response.send({ status: "OK", message: "Hello there from getHelloWorld" })
 })
